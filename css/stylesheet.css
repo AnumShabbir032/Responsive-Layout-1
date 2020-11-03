@@ -71,7 +71,7 @@
        width: 103%;
    }
  }
- /* End Media Queries for pc */
+ /* End Media Queries for pc Laptop  */
  @media(max-width: 1024px){
      .footer{
          display: none;
@@ -80,18 +80,22 @@
  /* Media Queries for Tablet */ 
  @media (max-width: 768px)  {
     .header {
-        width: 60rem;
+        width: 86%;
+    }
+    .head {
+        height: 5rem;
+        width: 52rem;
     }
     .main-right .row{
         display: none;
      }
     .container {
-        width: 60rem;
+        width: 54rem;
         height: 40rem;
         display: flex;
         flex-direction: column-reverse;
     }
-     .left-side{
+    .left-side{
         display: flex;
     }
     .col {
@@ -140,60 +144,23 @@
         width: 50rem;
     }
     .head {
-        background-color: orangered;
-        height: 8rem;
-        width: 48rem;
-        margin: 19px;
+        height: 6rem;
+        width: 94%;
+        margin: 20px;
     }
     .container {
-        width: 40rem;
-        height: 50rem;
-        margin: 40px auto;
+        width: 99%;
+        height: 49rem;
+        margin: 60px 0;
     }    
     .box {
-        height: 46rem;
-        width: 37rem;
+        width: 80%;
+        height: 45rem;
+        margin: auto;
     }    
     .footer{
         display: none;
     }
 
 }
-/*  */
-/*Media Queries for Small screen Smartphones Mobiles (Portrait) */
-@media (min-width: 320px) and (max-width: 480px){
-    .main-left {
-        flex-basis: 70%;
-    }
-    .main-right .row{
-        display: none;
-    }
-    .container .left-side .col{
-        display: none;
-    }
-    #bigbox{
-        display: none;
-    }
-    .header {
-        width: 50rem;
-    }
-    .head {
-        background-color: orangered;
-        height: 8rem;
-        width: 48rem;
-        margin: 19px;
-    }
-    .container {
-        width: 40rem;
-        height: 50rem;
-        margin: 40px auto;
-    }    
-    .box {
-        height: 46rem;
-        width: 37rem;
-    }    
-    .footer{
-        display: none;
-    }
-}
-/*End Media Queries for Smartphones Mobiles (Portrait) */
+/* End Media Queries for Larger screen Smartphones Mobiles (Portrait) */
